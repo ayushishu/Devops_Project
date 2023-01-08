@@ -19,6 +19,8 @@ USE "$mvn clean" for clean old build
 
 ##### HOW TO MAKE IMAGE 
 $ docker build -t imagename . 
------------------------------------------------------
+
+
 ##### Deploy HELM CHART 
+------------------------------------------
 $ helm install java-app-helm-chart java-app-helm/ --values .\java.app.helm\values.yaml
