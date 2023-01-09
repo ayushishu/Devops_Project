@@ -7,4 +7,9 @@ RUN npm install
 RUN npm install react-scripts 
 
 COPY Frontend/ .
-CMD [ "npm","start"]
+
+ENTRYPOINT [ "npm" ]
+
+CMD [ "install" ]
+CMD [ "react-scripts " ] 
+CMD [ "start"]
